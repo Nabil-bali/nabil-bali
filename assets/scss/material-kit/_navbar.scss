@@ -15,10 +15,38 @@
             color: inherit;
             padding: $padding-general-x;
             font-weight: $font-weight-default;
-            font-size: $mdb-btn-font-size-base;
+            font-size: $mdb-btn-font-size-lg;
             text-transform: uppercase;
             border-radius: $border-radius-base;
             line-height: 20px;
+
+            transition: all .2s ease-in-out;
+
+            &:hover{
+                text-decoration: none;
+                color: white;
+                font-weight: $font-weight-bolder;
+
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                left: 0;
+                right: 0;
+                top: 20%;
+                bottom: 20% ;
+                height: 60%;
+                width: 0%;
+                position: absolute;
+                transition: width .5s ease-in-out;
+                background-color: $primary;
+                z-index: -100;
+            }
+        
+            &:hover::before {
+                width: 98%;
+            }
 
             &:not(.btn-just-icon) .fa{
                 position: relative;

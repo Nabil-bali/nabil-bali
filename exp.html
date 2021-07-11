@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Qahiri&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <!-- Material Kit CSS -->
+    <link href="assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
+</head>
+
+<body class="landing-page sidebar-collapse"  style="background-image: linear-gradient( 105.3deg,  #0E1113, #24292e );">
+
+    <style>
+        .no-shadow {
+            box-shadow: none;
+        }
+
+        a[href^="tel"] {
+            padding: 12px;
+        }
+        .icon-container {
+            max-width: 100%;
+            
+        }
+        .icon-it {
+            display: inline-block;
+            background-color: rgba(114, 124, 245, 0.09);
+            margin: 0 10px 10px 0;
+            padding: .6rem;
+            border-radius: 4px;
+            transition: background .3s;
+        }
+
+        .icon-it:hover {
+            background-color: rgb(21 24 31);
+        }
+        .icon-it img {
+            width: 80%;
+            -webkit-filter: grayscale(0%); /* Pour les navigateurs Chrome, Safari, Opera */
+            filter: grayscale(0%); /* Firefox */
+            transition: filter .3s;
+        }
+
+        .icon-it img:hover {
+            -webkit-filter: grayscale(100%); /* Pour les navigateurs Chrome, Safari, Opera */
+            filter: grayscale(0%); /* Firefox */
+        }
+
+        span.bg-warning {
+      padding: 4px 8px;
+    }
+    </style>
+
+
+    <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="">
+                    <img src="assets/img/logo_2_nabil_bali.svg" class="text-danger" alt="Logo Nabil" height="100%" />
+                    Nabil-bali </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="dropdown nav-item">
+                        <a href="index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="exp.html" class="nav-link">
+                            Experience
+                        </a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="portfolio.html" class="nav-link">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="contact.html" class=" nav-link">
+                            Contact
+                        </a>
+                    </li>
+                     <li class="button-container nav-item iframe-extern">
+          
+          <a href="tel:123-456-7890" class="btn  btn-primary   btn-round btn-block">
+            <span class="material-icons">
+                phone
+                </span>
+          </a>
+
+        </li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+ 
+        <div class="section">
+            
+            <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="title text-white"><span class="bg-warning">Expériences professionnelles</span></h3>
+
+                    <div id="content">
+                        <ul class="timeline">
+                            <li class="event" data-date="Depuis 04/2021">
+                                <h3>Automaticien de test</h3>
+                                <h6>Sogeti - Part of Capgemini</h6>
+                                <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                            </li>
+                            <li class="event" data-date="06/2020 - 04/2021">
+                                <h3>Ingénieur test et validation</h3>
+                                <h6>Galitt</h6>
+                                <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta Rhymes as an opening show.</p>
+                            </li>
+                            <li class="event" data-date="02/2019 - 02/2020">
+                                <h3>Développeur web</h3>
+                                <h6>Freelance</h6>
+                                <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get ready!</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="card bg-transparent no-shadow">
+                        <div class="card-body">
+                            
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-md-6">
+                    
+                    <h3 class="title text-white"><span class="bg-warning">Développement web</span></h3>
+                    <div class="icon-container">
+                        <div class="icon-it">
+                            <img src="assets/img/HTML5_2.png" alt="html5" />
+                        </div>
+                        <div class="icon-it">
+                    <img src="assets/img/HTML5_1.png" alt="css3" />
+                    </div>
+                    <div class="icon-it">
+                        <img src="assets/img/js.png" alt="html5" />
+                    </div>
+                        <div class="icon-it">
+                    <img src="assets/img/jquery.png" alt="css3" />
+                    </div>
+
+
+                    <div class="icon-it">
+                        <img src="assets/img/bootstrap_lg.png" alt="css3" />
+                        </div>
+                        <div class="icon-it">
+                            <img src="assets/img/php_lg.png" alt="html5" />
+                        </div>
+                            <div class="icon-it">
+                        <img src="assets/img/git.png" alt="css3" />
+                    </div>
+
+                    <div class="icon-it">
+                        <img src="assets/img/github.png" alt="css3" />
+                        </div>
+                        <div class="icon-it">
+                            <img src="assets/img/php_lg.png" alt="html5" />
+                        </div>
+                            <div class="icon-it">
+                        <img src="assets/img/bash.png" alt="css3" />
+                    </div>
+
+
+                    <div class="icon-it">
+                        <img src="assets/img/npm.png" alt="css3" />
+                    </div>
+                    <div class="icon-it">
+                        <img src="assets/img/sql.png" alt="css3" />
+                    </div>
+                    
+                    <h3 class="title text-white"><span class="bg-warning">Test logiciel</span></h3>
+                    <div class="icon-container">
+                        <div class="icon-it">
+                            <img src="assets/img/cypress_white.png" alt="css3" />
+                        </div>
+                        <div class="icon-it">
+                            <img src="assets/img/squash2.png" alt="css3" />
+                        </div>
+                        <div class="icon-it">
+                            <img src="assets/img/jira.png" alt="css3" />
+                        </div>
+                        <div class="icon-it">
+                            <img src="assets/img/redmine.png" alt="css3" />
+                        </div>
+                        <div class="icon-it">
+                            <img src="assets/img/UFT1.png" alt="css3" />
+                        </div>
+                        <div class="icon-it">
+                            <img src="assets/img/selenium_ide_3.png" alt="css3" />
+                        </div>
+
+                        <div class="icon-it">
+                            <img src="assets/img/katalon.png" alt="css3" />
+                        </div>
+
+                        <div class="icon-it">
+                            <img src="assets/img/soap_ui.png" alt="css3" />
+                        </div>
+                        <div class="icon-it">
+                            <img src="assets/img/ready_api.png" alt="css3" />
+                        </div>
+                        <div class="icon-it">
+                            <img src="assets/img/hpalm.png" alt="css3" />
+                        </div>
+
+
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        
+
+
+        <footer class="footer">
+            <div class="container">
+
+                <div class="copyright float-right">
+                    Mon portfolio
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> ©
+                </div>
+            </div>
+        </footer>
+    
+
+</body>
+
+</html>

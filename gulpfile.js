@@ -32,7 +32,7 @@ var options = {
 };
 
 gulp.task('open', function() {
-  gulp.src('template.html')
+  gulp.src('index.html')
     .pipe(open(options));
 });
 
