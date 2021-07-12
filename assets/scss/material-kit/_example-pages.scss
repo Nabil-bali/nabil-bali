@@ -5,15 +5,13 @@
     }
 
     .page-header{
-        height: 90vh;
+        height: 100vh;
         overflow: hidden;
     }
     .brand{
         color: $white-color;
-        text-align: center;
 
         h1{
-            font-size: 4.2rem;
             font-weight: 600;
             display: inline-block;
             position: relative;

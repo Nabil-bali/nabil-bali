@@ -1,19 +1,19 @@
 
 .timeline {
-    border-left: 3px solid #1c8df0;
+    border-left: 3px solid #2f2d65;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
-    background: rgba(114, 124, 245, 0.09);
+    background: #00000000;
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
     line-height: 1.4em;
     font-size: 1.03em;
-    padding: 50px;
+    padding: 30px;
     list-style: none;
     text-align: left;
-    max-width: 40%;
-    color: #fff;
+    max-width: 60%;
+    color: #2f2d65;
 }
 
 @media (max-width: 767px) {
@@ -24,8 +24,8 @@
 }
 @media (min-width: 767px) {
     .timeline {
-        margin: 0 0 0 30%;
-        max-width: 70%;
+        margin: 0 0% 0 30%;
+        max-width: 60%;
     }
  }
 
@@ -36,21 +36,20 @@
 
 .timeline h2,
 .timeline h3 {
-    font-weight: 600;
+    font-weight: $font-weight-extra-bold;
     font-size: 1rem;
-    margin-bottom: 6px;
-    color: #1c8df0;//#8ff343//#ff9800;
+    color: #2f2d65;
     font-weight: 600;
-}
-.timeline h6 {
-    font-weight: 900;
+    margin-top: 0;
 }
 
 .timeline .event {
-    border-bottom: 1px dashed #e8ebf1;
-    padding-bottom: 25px;
+    border-bottom: 1px dashed #ff8a3d;
+    border-radius: 10px;
+    padding: 25px;
     margin-bottom: 25px;
     position: relative;
+    background-color: #d3ddff;
 }
 
 @media (max-width: 767px) {
@@ -60,9 +59,7 @@
 }
 
 .timeline .event:last-of-type {
-    padding-bottom: 0;
     margin-bottom: 0;
-    border: none;
 }
 
 .timeline .event:before,
@@ -74,6 +71,7 @@
 
 .timeline .event:before {
     left: -207px;
+    top: 1.5rem;
     content: attr(data-date);
     text-align: right;
     font-weight: 100;
@@ -89,15 +87,15 @@
 }
 
 .timeline .event:after {
-    -webkit-box-shadow: 0 0 0 3px #1c8df0;
-    box-shadow: 0 0 0 3px #1c8df0;
-    left: -55.8px;
-    background: #1d2125;
+    -webkit-box-shadow: 0 0 0 3px #2f2d65;
+    box-shadow: 0 0 0 3px #2f2d65;
+    left: -35.8px;
+    background:#d3ddff;
     border-radius: 50%;
     height: 9px;
     width: 9px;
     content: "";
-    top: 5px;
+    top: 1.8rem;
 }
 
 @media (max-width: 767px) {

@@ -85,6 +85,10 @@
     border-radius: $border-radius-extreme;
   }
 
+  &.btn-carre {
+    border-radius: 0;
+  }
+
   &.btn-fab,
   &.btn-just-icon {
       // see above for color variations

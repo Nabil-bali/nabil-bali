@@ -72,7 +72,7 @@ small,
 
     &,
     a{
-        color: $black-color;
+        color: #2f2d65;
         text-decoration: none;
     }
 }
@@ -87,6 +87,9 @@ h2.title{
     color: $black-color; //
 }
 
+.text-default {
+    color: #2f2d65;
+}
 .text-warning {
   color: $warning !important;
 }

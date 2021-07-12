@@ -1,5 +1,5 @@
 footer{
-    padding: $padding-general-x 0;
+    padding: 13px 0;
     text-align: center;
     display: -webkit-flex; /* Safari */ /* Safari 6.1+ */
     display: flex;
@@ -14,7 +14,7 @@ footer{
 
             a{
                 color: inherit;
-                padding: $padding-general-x;
+                padding: 13px;
                 font-weight: $font-weight-bold;
                 font-size: $mdb-btn-font-size-base;
                 text-transform: uppercase;
@@ -103,6 +103,8 @@ footer{
     }
     .copyright{
         padding: 15px 0;
+        color: #2f2d65;
+        font-weight: 400;
         .material-icons{
             font-size: 18px;
             position: relative;

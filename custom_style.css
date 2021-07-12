@@ -1,0 +1,249 @@
+
+    body {
+      
+      background: white;
+    }
+    #home-header {
+      background-image: url("assets/img/background_nabil-bali.jpg");
+      background-size: contain;
+      background-position: right;
+      background-repeat: no-repeat;
+    }
+
+    #main-section h1 span {
+      padding: 0 4px;
+    }
+
+    body {
+
+background: white;
+}
+
+.no-shadow {
+box-shadow: none;
+}
+
+a[href^="tel"] {
+padding: 12px;
+}
+
+.icon-container {
+max-width: 100%;
+padding-bottom: 20px;
+
+}
+
+.icon-it {
+display: inline-block;
+background-color: #9db4ff;
+margin: 0 10px 10px 0;
+padding: .6rem;
+border-radius: 4px;
+transition: background .3s;
+}
+
+.icon-it:hover {
+background-color: rgb(21 24 31);
+}
+
+.icon-it img {
+/* width: 80%; */
+-webkit-filter: grayscale(0%);
+/* Pour les navigateurs Chrome, Safari, Opera */
+filter: grayscale(0%);
+/* Firefox */
+transition: filter .3s;
+}
+
+.icon-it img:hover {
+-webkit-filter: grayscale(100%);
+/* Pour les navigateurs Chrome, Safari, Opera */
+filter: grayscale(0%);
+/* Firefox */
+}
+
+span.bg-warning {
+padding: 4px 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+color: #2f2d65;
+
+}
+    
+.section .title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+body {
+      
+      background: white;
+    }
+
+    /* 
+    8
+    8
+    8
+    SWIPPER
+    8
+    8
+    8
+    8
+    */
+
+    
+    
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper-slide {
+      width: 60%;
+    }
+
+    .swiper-slide img {
+      height: 300px;
+    }
+    .swiper-slide:nth-child(2n) {
+      width: 40%;
+    }
+
+    .swiper-slide:nth-child(3n) {
+      width: 20%;
+    }
+
+    /* 
+    8
+    8
+    8
+    SWIPPER
+    8
+    8
+    8
+    8
+    */
+
+        .circle-arrow {
+            border-radius: 50%;
+            border: 1px solid #c3c3c3;
+            padding: 0.2rem;
+            transition: all .2s ease-in-out;
+        }
+
+        .circle-arrow:hover {
+            color: white;
+            background-color: #43f359;
+            border: none;
+        }
+
+        /* contact */
+        
+            
+        .block-social-icons {
+          position: fixed;
+          top: 50%;
+          right: 10px;
+          transform: translate3d(0, -50%, 0);
+        }
+        .block-social-icons a {
+
+              display: block;
+        }
+            .btn-just-icon i {
+              border-radius: 50%;
+            }
+            
+            /* linkedin */
+            #linkedin i {
+              color: #fff;
+              background-color : #0976b4;
+              transition: all .2s ease-in-out;
+            }
+            #linkedin i:hover {
+              color : #0976b4;
+              background-color : #00000000;
+              border: 1px solid #0976b4;
+            }
+            
+            /* github */
+            #github i {
+              color: #fff;
+              background-color : #333333;
+              transition: all .2s ease-in-out;
+            }
+            
+            #github i:hover {
+              color : #333333;
+              background-color : #00000000;
+              border: 1px solid #333333;
+              
+            }
+            
+            /* dribble */
+            #dribbble i {
+              
+              color: #fff;
+              background-color : #ea4c89;
+              transition: all .2s ease-in-out;
+            }
+            
+            #dribbble i:hover {
+              
+              color : #ea4c89;
+              background-color : #00000000;
+              border: 1px solid #ea4c89;
+            }
+
+            /* google */
+            #google i {
+              color: #fff;
+              background-color : #dd4b39;
+              transition: all .2s ease-in-out;
+            }
+            #google i:hover {
+              color : #dd4b39;
+              background-color : #00000000;
+              border: 1px solid #dd4b39;
+            }
+        
+            #logo_contact {
+              float: left;
+              left: 40%;
+            }
+       

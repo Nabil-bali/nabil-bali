@@ -12,9 +12,9 @@
     .navbar-nav{
         .nav-item .nav-link{
             position: relative;
-            color: inherit;
+            color: #2f2d65;
             padding: $padding-general-x;
-            font-weight: $font-weight-default;
+            font-weight: 700;
             font-size: $mdb-btn-font-size-lg;
             text-transform: uppercase;
             border-radius: $border-radius-base;
@@ -24,7 +24,7 @@
 
             &:hover{
                 text-decoration: none;
-                color: white;
+                color: #2f2d65;
                 font-weight: $font-weight-bolder;
 
             }
@@ -34,13 +34,13 @@
                 display: block;
                 left: 0;
                 right: 0;
-                top: 20%;
-                bottom: 20% ;
-                height: 60%;
+                top: 10%;
+                bottom: 10% ;
+                height: 80%;
                 width: 0%;
                 position: absolute;
                 transition: width .5s ease-in-out;
-                background-color: $primary;
+                background-color:#ff8a3d;
                 z-index: -100;
             }
         

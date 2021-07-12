@@ -9,6 +9,10 @@
   @include img-fluid;
 }
 
+.img-fluid-sm {
+  @include img-fluid-sm;
+}
+
 
 // Image thumbnails
 .img-thumbnail {
@@ -20,6 +24,7 @@
 
   // Keep them at most 100% wide
   @include img-fluid;
+  @include img-fluid-sm;
 }
 
 //
