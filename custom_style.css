@@ -250,3 +250,24 @@ body {
               left: 40%;
             }
        
+            .contactus-1 {
+              min-height:100vh;
+              background: #d3ddff;
+            }
+            @media (min-width: 768px) { 
+              
+              .contactus-1  {
+                background-image: url("assets/img/bg-contact.png");
+              background-size: contain;
+              background-position-x: right;
+              background-repeat: no-repeat;
+              }
+             }
+
+             .img-galery  {
+               padding: 0;
+               background-size: contain;
+               background-position-x: center;
+               background-repeat: no-repeat;
+
+             }

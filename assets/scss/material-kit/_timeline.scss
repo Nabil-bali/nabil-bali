@@ -9,7 +9,7 @@
     position: relative;
     line-height: 1.4em;
     font-size: 1.03em;
-    padding: 30px;
+    padding: 0 30px;
     list-style: none;
     text-align: left;
     max-width: 60%;
@@ -41,6 +41,12 @@
     color: #2f2d65;
     font-weight: 600;
 }
+
+@media (min-width: 768px) { 
+    .timeline h2 {
+        margin-top: 0;
+    }
+ }
 
 .timeline .event {
     border-bottom: 1px dashed #ff8a3d;
