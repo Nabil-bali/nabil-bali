@@ -78,11 +78,6 @@
               Contact
             </a>
           </li>
-          <!-- <li class="button-container nav-item iframe-extern">
-            <a href="https://www.creative-tim.com/product/material-kit-pro?ref=presentation" target="_blank" class="btn  btn-primary   btn-round btn-block">
-              <i class="material-icons">shopping_cart</i> Buy Now
-            </a>
-          </li> -->
         </ul>
       </div>
     </div>
@@ -255,16 +250,24 @@
   </div>
 
   <!-- portfolio -->
-  <div id="portfolio" class="section">
+ <div id="portfolio" class="section">
     <div class="container">
       <div class="row">
 
-        <div class="img-galery col-lg-8 col-md-12">
-          <img src="assets/img/bg-almo.png" alt="almo" class="img-fluid" />
+        <div class="img-galery col-lg-6 col-md-12">
+          <div class="img-galery-inner">
+            <img src="assets/img/bg-almo_1000_450.png" alt="almo" class="img-fluid" />
+          </div>
         </div>
-
-        <div class="img-galery col-lg-4 col-md-6" style="background-color: #222222;background-image: url(assets/img/bg-chrono-dark.png);">
-          <!-- <img src="chrono-n.PNG" alt="almo" class="img-fluid" /> -->
+        <div class="img-galery col-lg-3 col-md-6">
+          <div class="img-galery-inner" style="background-color: #222222;">
+            <img src="assets/img/bg-chrono_500_450.png" alt="almo" class="img-fluid" />
+          </div>
+        </div>
+        <div class="img-galery col-lg-3 col-md-6">
+          <div class="img-galery-inner" style="background-color: #F2F2F2;">
+            <img src="assets/img/bg-iaw_500_450.png" alt="almo" class="img-fluid" />
+          </div>
         </div>
 
       </div>
@@ -272,18 +275,33 @@
     <div class="container">
       <div class="row">
 
-        <div class="img-galery col-lg-4 col-md-12" style="background-color: #F2F2F2;background-image: url(assets/img/bg-iaw5.png);">
-          <!-- <img src="" alt="almo" class="img-fluid" /> -->
+        <div class="img-galery col-lg-3 col-md-12">
+          <div class="img-galery-inner" style="background-color: #F2F2F2;">
+            <img src="assets/img/bg-moho_500_450.png" alt="iaw" class="img-fluid" /> 
+          </div>
         </div>
 
-        <div class="img-galery col-lg-8 col-md-6">
-          <img src="assets/img/bg-historea.png" alt="almo" class="img-fluid" />
+        <div class="img-galery col-lg-6 col-md-6">
+          <div class="img-galery-inner">
+            <img src="assets/img/bg-historea_1000_450.png" alt="almo" class="img-fluid" />
+          </div>
+          
+        </div>
+
+        <div class="img-galery col-lg-3 col-md-12">
+          <div class="img-galery-inner" style="background-color: #d3ddff;">
+            <img src="assets/img/bg-nabil_bali_500_450.png" alt="iaw" class="img-fluid" /> 
+          </div>
         </div>
 
       </div>
     </div>
   </div>
 
+  
+
+
+  
 
   <div id="contact" class="contactus-1 section section-image d-flex align-items-center">
     <div class="container">
@@ -352,6 +370,7 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: "auto",
+        centeredSlides: true,
         spaceBetween: 30,
         pagination: {
           el: ".swiper-pagination",
