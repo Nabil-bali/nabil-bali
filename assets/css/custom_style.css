@@ -1,10 +1,34 @@
+ @media (min-width:768px) {
+  :root {
+    --bg-image-jpg: url('assets/img/background_nabil-bali.jpg');
+  }
+}
+@media (max-width:767px) {
+  :root {
+    --bg-image-jpg: url('assets/img/bg-mobile.png');
+  }
+}
 
+
+    
     #home-header {
-      
       background-size: contain;
       background-position: right;
       background-repeat: no-repeat;
     }
+
+    /* @media (min-height: 768px) {
+      #home-header {
+        background-image: url("assets/img/background_nabil-bali.jpg");
+      }
+    } */
+
+    /* @media (max-height: 767px) {
+      #home-header {
+        background-image: url("assets/img/bg-mobile.PNG");
+      }
+      
+    } */
 
     #main-section h1 span {
       padding: 0 4px;
@@ -34,7 +58,7 @@ display: inline-block;
 background-color: #9db4ff;
 margin: 0 10px 10px 0;
 padding: .6rem;
-border-radius: 4px;
+border-radius: 2px;
 transition: background .3s;
 }
 

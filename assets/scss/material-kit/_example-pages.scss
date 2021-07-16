@@ -20,7 +20,11 @@
             font-size: 1.313rem;
             max-width: 500px;
             margin: 10px auto 0;
+            @media (max-width: 767px) {
+                margin: 10px 30% 10px 0;
+            }
         }
+        
     }
 
     h4.description{
