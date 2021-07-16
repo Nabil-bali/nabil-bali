@@ -1,5 +1,5 @@
 @mixin navbar-colors($color, $link-color) {
-    color: $link-color;
+    color: #2f2d65;
     background-color: $color !important;
     @include shadow-navbar-color($color);
 
@@ -12,7 +12,7 @@
 
     .navbar-toggler{
         .navbar-toggler-icon{
-            background-color: $link-color;
+            background-color: $primary;
         }
     }
 }

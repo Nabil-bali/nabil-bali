@@ -9889,7 +9889,7 @@ textarea {
   border-radius: 3px;
   padding: 0.625rem 0;
   margin-bottom: 20px;
-  color: #555;
+  color: #2f2d65;
   background-color: #ffffff !important;
   box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15); }
   .navbar .dropdown-item:hover,
@@ -9898,7 +9898,7 @@ textarea {
     background-color: #ffffff;
     color: #555; }
   .navbar .navbar-toggler .navbar-toggler-icon {
-    background-color: #555; }
+    background-color: #ff8a3d; }
   .navbar.fixed-top {
     border-radius: 0; }
   .navbar .navbar-nav .nav-item .nav-link {
@@ -9985,14 +9985,14 @@ textarea {
     align-items: center; }
   .navbar .navbar-brand {
     position: relative;
-    color: inherit;
+    color: #2f2d65;
     height: 50px;
     font-size: 1.125rem;
     line-height: 30px;
     padding: 0.625rem 0;
     font-weight: 900; }
   .navbar.bg-primary {
-    color: #ffffff;
+    color: #2f2d65;
     background-color: #ff8a3d !important;
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(255, 138, 61, 0.46); }
     .navbar.bg-primary .dropdown-item:hover,
@@ -10001,9 +10001,9 @@ textarea {
       background-color: #ff8a3d;
       color: #ffffff; }
     .navbar.bg-primary .navbar-toggler .navbar-toggler-icon {
-      background-color: #ffffff; }
+      background-color: #ff8a3d; }
   .navbar.bg-info {
-    color: #ffffff;
+    color: #2f2d65;
     background-color: #00bcd4 !important;
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(0, 188, 212, 0.46); }
     .navbar.bg-info .dropdown-item:hover,
@@ -10012,9 +10012,9 @@ textarea {
       background-color: #00bcd4;
       color: #ffffff; }
     .navbar.bg-info .navbar-toggler .navbar-toggler-icon {
-      background-color: #ffffff; }
+      background-color: #ff8a3d; }
   .navbar.bg-warning {
-    color: #ffffff;
+    color: #2f2d65;
     background-color: #ff9800 !important;
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(255, 152, 0, 0.46); }
     .navbar.bg-warning .dropdown-item:hover,
@@ -10023,9 +10023,9 @@ textarea {
       background-color: #ff9800;
       color: #ffffff; }
     .navbar.bg-warning .navbar-toggler .navbar-toggler-icon {
-      background-color: #ffffff; }
+      background-color: #ff8a3d; }
   .navbar.bg-rose {
-    color: #ffffff;
+    color: #2f2d65;
     background-color: #e91e63 !important;
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(233, 30, 99, 0.46); }
     .navbar.bg-rose .dropdown-item:hover,
@@ -10034,9 +10034,9 @@ textarea {
       background-color: #e91e63;
       color: #ffffff; }
     .navbar.bg-rose .navbar-toggler .navbar-toggler-icon {
-      background-color: #ffffff; }
+      background-color: #ff8a3d; }
   .navbar.bg-danger {
-    color: #ffffff;
+    color: #2f2d65;
     background-color: #f44336 !important;
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(244, 67, 54, 0.46); }
     .navbar.bg-danger .dropdown-item:hover,
@@ -10045,9 +10045,9 @@ textarea {
       background-color: #f44336;
       color: #ffffff; }
     .navbar.bg-danger .navbar-toggler .navbar-toggler-icon {
-      background-color: #ffffff; }
+      background-color: #ff8a3d; }
   .navbar.bg-success {
-    color: #ffffff;
+    color: #2f2d65;
     background-color: #43f359 !important;
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(67, 243, 89, 0.46); }
     .navbar.bg-success .dropdown-item:hover,
@@ -10056,9 +10056,9 @@ textarea {
       background-color: #43f359;
       color: #ffffff; }
     .navbar.bg-success .navbar-toggler .navbar-toggler-icon {
-      background-color: #ffffff; }
+      background-color: #ff8a3d; }
   .navbar.bg-dark {
-    color: #ffffff;
+    color: #2f2d65;
     background-color: #212121 !important;
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(33, 33, 33, 0.46); }
     .navbar.bg-dark .dropdown-item:hover,
@@ -10067,7 +10067,7 @@ textarea {
       background-color: #212121;
       color: #ffffff; }
     .navbar.bg-dark .navbar-toggler .navbar-toggler-icon {
-      background-color: #ffffff; }
+      background-color: #ff8a3d; }
   .navbar.navbar-transparent {
     background-color: transparent !important;
     box-shadow: none;
