@@ -231,4 +231,17 @@ color: #2f2d65;
             }
 
   
+            .cta-button {
+              box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(255, 162, 119, 0.05);
+              animation: shadow-pulse 1.5s 1s infinite;
+            }
             
+            @keyframes shadow-pulse
+            {
+                 0% {
+                      box-shadow: 0 0 0 0px rgba(255, 194, 102, 0.6);
+                 }
+                 100% {
+                      box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
+                 }
+            }
