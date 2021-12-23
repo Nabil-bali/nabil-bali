@@ -1,6 +1,6 @@
-Welcome on personal website
+### Welcome on personal website
 
-My activities :
+## My activities :
 - Test Automation
 - Functionnal Testing
 - Web Development
