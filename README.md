@@ -1,6 +1,6 @@
 # I'm Nabil Goual, Welcome on personal website
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=Nabil-bali.nabil-bali&right_color=#58a6ff)
+![profile views](https://visitor-badge.glitch.me/badge?page_id=Nabil-bali.nabil-bali&right_color=#58a6ff)
 <a href="https://www.linkedin.com/in/nabil-goual-developpeur/"><img src="assets/img/linkedin.svg" alt="LinkedIn"></a>
 
 ## My activities 🎯
@@ -10,4 +10,4 @@
 - Web Development
 - Continuous Integration
 
-Check Out My Repos ⬇️
+## Check Out My Repos ⬇️
