@@ -12,9 +12,4 @@ Welcome to my Github! I'm a French QA tester working in remote.
 - Web Development
 - Continuous Integration
 
-## Main Skills
-
-<img src="https://img.shields.io/badge/" alt="License Badge"/>
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
 ### Check Out My Repos ⬇️
