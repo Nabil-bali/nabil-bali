@@ -13,4 +13,8 @@ Welcome to my Github! I'm a French QA tester working in remote.
 - Web Development
 - Continuous Integration
 
+## Top used langages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nabil-bali)](https://github.com/Nabil-bali)/github-readme-stats)
+
 ### Check Out My Repos ⬇️
