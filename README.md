@@ -13,8 +13,4 @@ Welcome to my Github! I'm a French QA tester working in remote.
 - Web Development
 - Continuous Integration
 
-## Github Stats
-
-[![Nabil-bali's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nabil-bali&show_icons=true&theme=radical&layout=compact)](https://github.com/Nabil-bali/github-readme-stats)
-
 ### Check Out My Repos ⬇️
