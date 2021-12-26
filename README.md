@@ -15,6 +15,6 @@ Welcome to my Github! I'm a French QA tester working in remote.
 
 ## Github Stats
 
-[![Nabil-bali's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nabil-bali)](https://github.com/Nabil-bali/github-readme-stats)
+[![Nabil-bali's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nabil-bali&show_icons=true&theme=radical)](https://github.com/Nabil-bali/github-readme-stats)
 
 ### Check Out My Repos ⬇️
