@@ -37,3 +37,7 @@ node_modules
 
 # Mac DS Store
 .DS_Store
+
+# others
+assets/demo
+assets/scss
