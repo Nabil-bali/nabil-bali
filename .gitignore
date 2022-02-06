@@ -41,5 +41,5 @@ node_modules
 # others
 assets/demo/
 assets/scss/
-**/material-kit.css.map
-**/material-kit.min.css
+assets/css/material-kit.css.map
+assets/css/material-kit.min.css
