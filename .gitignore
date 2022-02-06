@@ -39,7 +39,5 @@ node_modules
 .DS_Store
 
 # others
-**/demo/
-**/scss/
-
-gulpfile.js
+assets/demo/
+assets/scss/
