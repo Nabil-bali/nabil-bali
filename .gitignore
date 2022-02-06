@@ -39,5 +39,5 @@ node_modules
 .DS_Store
 
 # others
-assets/demo
-*.scss
+assets/demo/
+assets/scss/
